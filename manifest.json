@@ -1,0 +1,12 @@
+{
+    "runtime": {
+        "majorVersion": "8"
+    },
+    "command": "java -jar restful-microservices-1.0.jar",
+    "release": {
+        "version": "1.0",
+        "build": "24",
+        "commit": "1A2B345"
+    },
+    "notes": "Employee Spring Boot Web Service"
+}
