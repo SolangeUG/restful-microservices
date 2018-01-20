@@ -1,7 +1,9 @@
-# Spring boot RESTful microservice application
+# A Spring Boot RESTful microservice application
  
 [![License MIT](https://img.shields.io/badge/license-MIT%20License-green.svg)](https://github.com/SolangeUG/fundamentals/blob/master/LICENSE)
 [![Platform Java](https://img.shields.io/badge/platform-Java-blue.svg)](https://docs.oracle.com/en/java/)
+
+An example of a simple Spring Boot application to manage a company's employees through Java based RESTful microservices.
 
 
 
