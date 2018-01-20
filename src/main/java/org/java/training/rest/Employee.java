@@ -42,7 +42,7 @@ public class Employee {
      * @param title employee title
      * @param dept employee dept
      */
-    public Employee(long id, String firstName, String lastName,
+    Employee(long id, String firstName, String lastName,
                     String email, String phone, String birthDate, String title, String dept) {
         this.id = id;
         this.firstName = firstName;
