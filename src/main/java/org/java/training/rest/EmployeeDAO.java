@@ -3,7 +3,7 @@ package org.java.training.rest;
 import java.util.List;
 
 /**
- * Data Access Object for an Employee
+ * Data Access Object for employees
  *
  * @author Solange U. Gasengayire
  */
