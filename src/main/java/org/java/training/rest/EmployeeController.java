@@ -129,5 +129,21 @@ public class EmployeeController {
         }
     }
 
-    // TODO: Delete an employees
+    /**
+     * Delete an employee from the list of employees
+     * @param id the employee id
+     * @return true if the operation succeeds
+     *         false otherwise
+     */
+    @RequestMapping(method = RequestMethod.DELETE, value = "{id}")
+    public ResponseEntity delete(@PathVariable long id) {
+
+        boolean result = employeeDAO.delete(id);
+
+        if (result) {
+            return new ResponseEntity<>(null, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+        }
+    }
 }
