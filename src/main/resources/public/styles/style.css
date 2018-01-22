@@ -1,4 +1,50 @@
-body {
+html, body {
   margin: 20px;
   font-family: Kalam;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+  margin-top: 25px;
+  font-size: 75%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.peopleContent {
+  flex-grow: 1;
+}
+
+.portrait {
+  width: 120px;
+}
+
+.peopleItem {
+  width: 350px;
+  border: 1px solid #777777;
+  background: #FAFAFA;
+  margin: 3px;
+  padding: 2px;
+  display: flex;
+}
+
+.peopleTitle {
+  width: 100%;
+  background: #FAFAFA;
+  margin: 3px;
+  padding: 2px;
+  display: flex;
+}
+
+#editDialog {
+  display: none;
+}
+
+#addDialog {
+  display: ;
 }
