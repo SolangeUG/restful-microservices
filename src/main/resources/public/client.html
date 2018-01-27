@@ -8,7 +8,7 @@
               crossorigin="anonymous">
         <link rel="stylesheet" href="styles/style.css">
         <!-- AngularJS controller-->
-        <script src="EmployeeController.js"></script>
+        <script src="scripts/EmployeeController.js"></script>
     </head>
     <body>
         <div ng-controller="Employees" ng-init="getEmployees()">
@@ -54,7 +54,7 @@
                             <img src="data:image/png;base64, {{emp.photo}}" style="width:120px; height:120px"/>
                         </div>
                         <div class="photos" ng-show="emp.photo == null || emp.photo.length == 0">
-                            <img src="nopic.png" style="width:120px; height:120px"/> </div>
+                            <img src="images/nopic.png" style="width:120px; height:120px"/> </div>
                         <div class="peopleContent">
                             <h4>{{emp.firstName}} {{emp.lastName}}</h4>
                             {{emp.title}}<br>
@@ -89,7 +89,7 @@
                                 <img src="data:image/png;base64, {{photo}}"/>
                             </div>
                             <div class="photos" ng-show="photo == null || photo.length == 0">
-                                <img src="nopic.png" style="width:120px; height:120px"/>
+                                <img src="images/nopic.png" style="width:120px; height:120px"/>
                             </div>
 
                             <div class="form-group" ng-class="{ 'has-error': form.firstName.$invalid && form.$submitted}">
