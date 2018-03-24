@@ -2,6 +2,7 @@ package org.java.training;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration;
 
 import java.util.Optional;
 import java.util.Properties;
@@ -12,7 +13,9 @@ import java.util.Properties;
  *
  * @author Solange U. Gasengayire
  */
-@SpringBootApplication
+@SpringBootApplication(exclude = {
+        SecurityAutoConfiguration.class
+}, scanBasePackages = "org.java.training")
 public class App {
 
     // Get HOST and PORT from environment or set default
