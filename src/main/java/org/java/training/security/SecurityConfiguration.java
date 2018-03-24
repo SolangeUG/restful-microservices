@@ -10,8 +10,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * @author Solange
- * @since 24/03/2018
+ * Basic security configuration
+ * @author Solange U. Gasengayire
  */
 @Configuration
 @EnableWebSecurity
